@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: avenfold
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /api/health
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false

@@ -1,0 +1,72 @@
+
+> avenfold@0.1.0 test
+> node --test test/*.test.mjs
+
+(node:63628) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ PDF and Excel quotations compare actual item prices and explicit total charges (1871.251ms)
+✔ mixed currencies are never ranked against one another (49.6807ms)
+✔ different quantities, units and item specifications block price ranking (45.1318ms)
+✔ punctuation in specifications is preserved rather than merging 1.0 mm and 10 mm (26.1482ms)
+✔ missing charges are not assumed zero and inconsistent totals surface checks (26.4982ms)
+✔ quotation AI output must cite the same file and contain literal numeric values (53.9498ms)
+✔ document comparison finds changed, removed and added clauses with exact references (548.6907ms)
+✔ case and whitespace settings are honoured and unchanged documents stay unchanged (2.4452ms)
+✔ AI observations cannot invent comparison references (2.3414ms)
+✔ comparison workbook contains actual prices, source passages and typed total ranking (1565.9768ms)
+Avenfold is ready at http://127.0.0.1:57951
+✔ comparison API enforces file counts and produces real downloadable comparison files (6061.4679ms)
+✔ confirmed equivalent items are reversible while currency and quantity checks remain enforced (28.8271ms)
+✔ locale numbers preserve values and reject unsupported strings (7.8595ms)
+✔ labelled extraction retains evidence and surfaces amount mismatch (25.7054ms)
+✔ table extraction preserves each row, including missing values and duplicate references (11.2179ms)
+✔ model extraction rejects invented values and unknown citations (9.6304ms)
+✔ spreadsheet formula injection is neutralised; numeric values remain numeric (1.3198ms)
+✔ safe output names retain file extensions and avoid reserved Windows paths (4.3998ms)
+✔ recipe validation rejects duplicate fields and mail header injection (3.9281ms)
+✔ free eligibility excludes missing pricing, paid extras and moderation models (2.654ms)
+✔ model pool ranks verified responses, caches checks and fails over after malformed JSON (114.5131ms)
+✔ workbook exports real typed values, checks, source evidence and CSV (2042.5053ms)
+✔ delivery exports open Word and PDF documents and a MIME email with both attachments (800.7775ms)
+(node:39416) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ digitisation rejects unsuitable formats and invalid options (12.5613ms)
+✔ OCR corrections validate word ownership, preserve confidence and record original text (2.7624ms)
+✔ real scans become searchable with unchanged PDF appearance, editable Word and category records (22459.4871ms)
+Avenfold is ready at http://127.0.0.1:55656
+✔ digitisation API accepts raw scans and keeps reviewed output revisions (5178.5558ms)
+(node:47004) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Avenfold is ready at http://127.0.0.1:50397
+Avenfold is ready at http://127.0.0.1:57953
+✔ local API runs real files, protects mutations, preserves revisions and restarts with history (5791.5055ms)
+Avenfold is ready at http://127.0.0.1:61116
+✔ watched inbox processes a real file once and retains the source original (3365.7306ms)
+✔ actual scan recognition recovers labelled amounts and records OCR warning (12091.4913ms)
+✔ custom DOCX template renders actual placeholders and preserves separate PDF layout (1129.6056ms)
+✔ AI records cannot silently omit source files or known table rows (2.7693ms)
+✔ file preparation preserves original bytes and merges actual PDF pages (950.3948ms)
+(node:51788) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ filing rules distinguish document headings and keep ambiguous material for review (20.8975ms)
+✔ template extraction never invents missing fields and detects conflicting values (12.4975ms)
+✔ custom folders validate hierarchy and template fields (6.1173ms)
+✔ folder membership follows identifiers rather than similar name prefixes (1.3914ms)
+✔ library AI rejects unsupported field values and invented category evidence (4.2679ms)
+Avenfold is ready at http://127.0.0.1:50398
+Avenfold is ready at http://127.0.0.1:61119
+✔ library preserves files, classifies, searches, corrects, archives and exports foldered originals and records (6623.8652ms)
+Avenfold is ready at http://127.0.0.1:61122
+✔ unreadable documents keep downloadable originals and review status (269.9707ms)
+(node:58416) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Avenfold web is ready.
+✔ public hosting isolates browser workspaces and protects managed connections (1091.2408ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 41
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33363.6314

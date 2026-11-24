@@ -1,0 +1,15 @@
+node_modules/
+data/
+.secrets.env
+.env
+.env.*
+!.env.example
+references/
+test-results/
+public/vendor/
+samples/
+dist/
+*.traineddata
+__pycache__/
+outputs/
+work/
